@@ -1,0 +1,11 @@
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\bin\Debug\netcoreapp2.2\ConsoleApiCall.deps.json
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\bin\Debug\netcoreapp2.2\ConsoleApiCall.runtimeconfig.json
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\bin\Debug\netcoreapp2.2\ConsoleApiCall.runtimeconfig.dev.json
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\bin\Debug\netcoreapp2.2\ConsoleApiCall.dll
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\bin\Debug\netcoreapp2.2\ConsoleApiCall.pdb
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\obj\Debug\netcoreapp2.2\ConsoleApiCall.csprojAssemblyReference.cache
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\obj\Debug\netcoreapp2.2\ConsoleApiCall.csproj.CoreCompileInputs.cache
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\obj\Debug\netcoreapp2.2\ConsoleApiCall.AssemblyInfoInputs.cache
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\obj\Debug\netcoreapp2.2\ConsoleApiCall.AssemblyInfo.cs
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\obj\Debug\netcoreapp2.2\ConsoleApiCall.dll
+C:\Users\Holde\Desktop\coding\ConsoleApiCall\obj\Debug\netcoreapp2.2\ConsoleApiCall.pdb
