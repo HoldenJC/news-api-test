@@ -4,9 +4,19 @@ using RestSharp.Authenticators;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 
 namespace ConsoleApiCall
 {
+    public class Article
+    {
+        public string Section { get; set; }
+        public string Title { get; set; }
+        public string Abstract { get; set; }
+        public string Url { get; set; }
+        public string Byline { get; set; }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -23,8 +33,18 @@ namespace ConsoleApiCall
             {
                 response = await GetResponseContentAsync(client, request) as RestResponse;
             }).Wait();
+
             JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(response.Content);
-            Console.WriteLine(jsonResponse["results"]);
+            List<Article> articleList = JsonConvert.DeserializeObject<List<Article>>(jsonResponse["results"].ToString());
+            foreach (Article article in articleList)
+            {
+                Console.WriteLine("Section: {0}", article.Section);
+                Console.WriteLine("Title: {0}", article.Title);
+                Console.WriteLine("Abstract: {0}", article.Abstract);
+                Console.WriteLine("Url: {0}", article.Url);
+                Console.WriteLine("Byline: {0}", article.Byline);
+            }
+            Console.ReadLine();
         }
 
         // 5
